@@ -85,4 +85,4 @@ The dataset will be saved in the `$DATADIR` directory, as sharded train and test
 Incase if you don't have any gcp projects then you may download reddit datasets from [PushShift](https://reddit.pushshit.io/) website by just running following command but it takes forever to download and preprocess. So, I wouldn't suggest you do this.
 
 ```bash
-python build.py --dpath <download path> --reddit-link <"pushshit.io link which contains all the datasets"> --hash-link <"link for hash file.txt">
+python build.py --dpath <download_path> --reddit-link <"pushshit.io link which contains all the datasets"> --hash-link <"link for hash file.txt">
